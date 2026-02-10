@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+/* font-family: "Gravitas One", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    
+}
+
+.presentation{
+    background-color:#181818;
+    height: 400px;
+    width: 100%;
+    color: #EBDDC3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.presentation_title{
+    font-family: "Gravitas One", serif;
+    font-size: 58px;
+}
+.name_year_presentation{
+    display: flex;
+    flex-direction: row;
+    gap: 111px;
+}
+
+#name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+#year{
+    font-family: "Gravitas One", serif;
+    font-size: 24px;
+}
+
+
+/* fim da primeira parte - apresentação */
