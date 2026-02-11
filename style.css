@@ -130,15 +130,19 @@ body{
 }
 
 .box_mensage{
-    width: 369px;
-    height:178.52px ;
     color:#fff;
-    background-color: #b96363;
+    background-color: #181818;
     display: flex;
     align-items: center;
     border-radius: 47px;
-    justify-self: right;
+    width: 369px;
+    height:178.52px ;
     /* vou ter que usar left flutuante */
+    position:relative;
+    z-index: 1;
+    left:814px;
+    bottom: 100px;
+    
 }
 
 .cool_mensage{
